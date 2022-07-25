@@ -1,12 +1,11 @@
-import React from "react";
-import BucketList from "./BuketList";
+import React from 'react';
+import BuketList from './BuketList';
+import './App.css'
 
-
-function App() {
+function App () { //App.js 는 function명이 App이여야 하나 봄.
   return (
-    <div className="App">
-      <h2>내 버킷리스트 :)</h2>
-      <BucketList/>
+    <div>
+      <BuketList />
     </div>
   );
 }
